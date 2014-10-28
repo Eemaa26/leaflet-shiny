@@ -16,3 +16,4 @@ Imports:
 Suggests:
     knitr
 VignetteBuilder: knitr
+LazyData: true

@@ -2,7 +2,6 @@
 
 export(createLeafletMap)
 export(leafletMap)
-export(uspop2000)
 importFrom(htmltools,HTML)
 importFrom(htmltools,singleton)
 importFrom(htmltools,tagList)

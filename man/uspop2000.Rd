@@ -10,9 +10,6 @@
 The US Census Bureau:
   \url{http://www.census.gov/popest/data/intercensal/cities/cities2010.html}
 }
-\usage{
-uspop2000
-}
 \description{
 Intercensal estimates of the resident population for Incorporated Places and
 Minor Civil Divisions: April 1, 2000 to July 1, 2010.
@@ -24,5 +21,4 @@ p <- uspop2000$Pop2010
 p <- (p - min(p))/(max(p) - min(p))
 plot(Lat ~ Long, data = uspop2000, cex = sqrt(p), asp = 1, col = rgb(1, 0, 0, .3))
 }
-\keyword{datasets}
 
