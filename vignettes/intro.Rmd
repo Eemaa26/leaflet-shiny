@@ -3,7 +3,7 @@ title: "An Introduction to the leaflet Package"
 author: "Joe Cheng"
 date: "`r Sys.Date()`"
 output:
-  knitr:::html_vignette:
+  rmarkdown::html_vignette:
     toc: yes
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
